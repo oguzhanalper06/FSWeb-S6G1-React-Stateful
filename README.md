@@ -1,6 +1,6 @@
 # Modül Projesi: React Bileşenleri(Components) ve Bileşen Statleri
 
-Bu proje, bu sprint'te öğrenilen kavram ve teknikleri uygulamanıza ve bunları somut bir projede uygulamanıza olanak tanır. Bu sprintte, React bileşenlerini ve bileşen stateleri incelendi. Sprint sırasında, React'in ne olduğunu, React bileşenlerinin ne olduğunu ve bunların nasıl oluşturulacağını, state'in ne olduğunu ve bir bileşenin state bilgisinin nasıl değiştirilebileceğini ve tıklama işleyicileri(click handlers) ile bileşen state'inin nasıl güncelleneceğini incelediniz. 
+Bu proje, bu sprint'te öğrenilen kavram ve teknikleri uygulamanıza ve bunları somut bir projede uygulamanıza olanak tanır. Bu sprintte, React bileşenlerini ve bileşen stateleri incelendi. Sprint sırasında, React'in ne olduğunu, React bileşenlerinin ne olduğunu ve bunların nasıl oluşturulacağını, state'in ne olduğunu ve bir bileşenin state bilgisinin nasıl değiştirilebileceğini ve tıklama işleyicileri(click handlers) ile bileşen state'inin nasıl güncelleneceğini incelediniz.
 Bu projede, state bilgisi olan çeşitli bileşenleri detaylandırarak bu konu ve ilkelerin yeterliliğini geliştireceksiniz.
 
 ## Talimatlar
@@ -20,11 +20,11 @@ Bu proje `src/components` klasörü içinde bir kaç React bileşeni(component) 
 ### Görev 1: Proje Kurulumu
 
 - [ ] Projeyi forklayarak bir kopyasını oluşturun.
-- [ ] Terminali kullanarak kendi forkunuzu klonlayın. 
+- [ ] Terminali kullanarak kendi forkunuzu klonlayın.
 - [ ] Projenin ana klasörüne gidin.
-- [ ] `npm install` komutunu kullanarak projenin dependencylerini indirin. 
-NOT: kurulumdan sonra vulnerability bulursa audit yapmak yerine *sadece bu proje için* `npm install --no-audit` komutuyla yükleme yapın.
-- [ ] `npm start` komutuyla projeyi başlatın.
+- [ ] `npm install` komutunu kullanarak projenin dependencylerini indirin.
+      NOT: kurulumdan sonra vulnerability bulursa audit yapmak yerine _sadece bu proje için_ `` komutuyla yükleme yapın.
+- [ ] `npm start` komutuyla projeyi başlatın.npm install --no-audit
 - [ ] `npm test` komutuyla projeyi test edebilirsiniz. (uygulamanın `http://localhost:1234` 'da çalışıyor halde olması lazım)
 - [ ] Commitinizi pushlayın: `git push origin main`.
 
@@ -56,10 +56,10 @@ Gerekli öğelerinizi bitirdikten sonra çalışmanızı daha da ileri götüreb
 
 Bu projeye bileşen olarak bir Tic Tac Toe oyunu ekleyin. 'X' ve 'O' ların pozisyonları birer state'te tutulmalıdır, JSX 3x3 tabloda sonuçları göstermelidir. İnsan oyuncu tarafından yalnızca boş kareler seçilebilir ve bu tıklamalarla ilgilenen event handlerın biraz mantık içermesi gerekir.:
 
-  1. İnsan oyuncunun son hamlesi **oyunun bittiği** anlamına mı geliyor?? (O zaman oyunu bitir!)
-  2. Oyun belirli bir hamle yaparak **bilgisayar tarafından anında kazanılabilir mi**? (Bunu da ekleyin!)
-  3. Bilgisayar belirli bir hamle yaparak **insanın bir sonraki hamlesinde kazanmasını engelleyebilir mi**? (Yenilgiyi önle!)
-  
+1. İnsan oyuncunun son hamlesi **oyunun bittiği** anlamına mı geliyor?? (O zaman oyunu bitir!)
+2. Oyun belirli bir hamle yaparak **bilgisayar tarafından anında kazanılabilir mi**? (Bunu da ekleyin!)
+3. Bilgisayar belirli bir hamle yaparak **insanın bir sonraki hamlesinde kazanmasını engelleyebilir mi**? (Yenilgiyi önle!)
+
 Önceki kontroller olumsuz çıkarsa, bilgisayarın hareketi muhtemelen rastgele olacaktır, ancak "oyun motorunun" ne kadar akıllı hissedeceğine şaşıracaksınız.
 
 İPUCU: React'ın sitesinde dökümanlarda React ile kapsamlı bir Tic Tac Toe oyunu nasıl yapılır adım adım anlatılmıştır, o örneği inceleyebilirsiniz.
